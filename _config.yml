@@ -83,10 +83,10 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  First authored papers:
+    title: 'First authored papers'    
+  Co-authored papers:
+    title: 'Co-authored papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
