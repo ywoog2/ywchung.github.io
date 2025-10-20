@@ -35,3 +35,57 @@ My research focuses on the development of advanced ultrasound transducers for bi
     </ul>
   </div>
 </div>
+
+<h2 style="margin-top: 18px;">Research Highlights</h2>
+
+<div style="display:flex; gap:18px; flex-wrap:wrap; align-items:stretch;">
+
+  <!-- 카드 1 -->
+  <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
+    <img src="https://github.com/ywoog2/ywoog2.github.io/blob/master/images/1.png" alt="Body-coupled power transfer" style="width:100%; display:block;">
+    <div style="padding:10px 14px 14px;">
+      <div style="font-weight:700; text-align:center; margin-top:4px;">Body-coupled power transfer</div>
+      <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
+        Development of power-transfer methods for charging implantable medical devices and battery-free systems.
+      </div>
+      <div style="font-size:12px; color:#888; text-align:right; margin-top:6px;"><em>Sci. Adv. (2025)</em></div>
+    </div>
+  </div>
+
+  <!-- 카드 2 -->
+  <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
+    <img src="https://github.com/ywoog2/ywoog2.github.io/blob/master/images/2.png" alt="Hydrogel-based bioelectronics" style="width:100%; display:block;">
+    <div style="padding:10px 14px 14px;">
+      <div style="font-weight:700; text-align:center; margin-top:4px;">Hydrogel-based bioelectronics</div>
+      <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
+        Smart hydrogels with tunable electrical/mechanical properties for tissue engineering and actuation.
+      </div>
+      <div style="font-size:12px; color:#888; text-align:right; margin-top:6px;"><em>In preparation</em></div>
+    </div>
+  </div>
+
+  <!-- 카드 3 -->
+  <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
+    <img src="https://github.com/ywoog2/ywoog2.github.io/blob/master/images/3.png" alt="Ion-based energy harvesting" style="width:100%; display:block;">
+    <div style="padding:10px 14px 14px;">
+      <div style="font-weight:700; text-align:center; margin-top:4px;">Ion-based energy harvesting</div>
+      <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
+        DC generators leveraging asymmetric ion distributions for sustained output in aqueous media.
+      </div>
+      <div style="font-size:12px; color:#888; text-align:right; margin-top:6px;"><em>Submitted</em></div>
+    </div>
+  </div>
+
+  <!-- 카드 4 -->
+  <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
+    <img src="https://github.com/ywoog2/ywoog2.github.io/blob/master/images/4.png" alt="Triboelectric energy harvesting" style="width:100%; display:block;">
+    <div style="padding:10px 14px 14px;">
+      <div style="font-weight:700; text-align:center; margin-top:4px;">Triboelectric energy harvesting</div>
+      <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
+        Mechanistic studies of electrostatic generation and device architectures for efficient harvesting.
+      </div>
+      <div style="font-size:12px; color:#888; text-align:right; margin-top:6px;"><em>Mater. Today (2024)</em></div>
+    </div>
+  </div>
+
+</div>
