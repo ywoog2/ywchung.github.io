@@ -8,6 +8,14 @@ redirect_from:
 ---
 
 I am a PhD candidate in Advanced Materials Science & Engineering at Sungkyunkwan University (advisor: Prof. Sang-Woo Kim)
+My research focus is ultrasound-driven energy harvesting for biomedical applications. 
+
+Interest
+•	Adas
+•	Dasdsa
+•	Asdasdsadasda
+•	Cascasdacs
+
 
 A data-driven personal website
 ======
