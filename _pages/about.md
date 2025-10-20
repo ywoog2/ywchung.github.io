@@ -40,27 +40,29 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   </div>
 </div>
 
-<h2 style="margin-top: 24px; font-size: 22px; text-align: center;">Achievements</h2>
+<div style="width:100%; display:flex; justify-content:center; margin-top:24px;">
+  <div style="width:80%; text-align:center;">
+    <h2 style="margin-bottom:8px;">Achievements</h2>
 
-<div style="display: flex; justify-content: center; width: 100%;">
-  <table style="width:80%; text-align:center; font-size:14px; border-collapse:collapse; margin-top:8px;">
-    <thead>
-      <tr style="background:#f5f5f5;">
-        <th style="padding:10px;">First-author<br>publications</th>
-        <th style="padding:10px;">Co-author<br>publications</th>
-        <th style="padding:10px;">Patent<br>registration</th>
-        <th style="padding:10px;">Patent<br>application</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding:10px;">5 papers<br>(Total IF = 107.7)</td>
-        <td style="padding:10px;">8 papers</td>
-        <td style="padding:10px;">19 patents<br>(US = 2)</td>
-        <td style="padding:10px;">5 patents<br>(US = 5)</td>
-      </tr>
-    </tbody>
-  </table>
+    <table style="width:100%; text-align:center; font-size:14px; border-collapse:collapse; margin-top:8px;">
+      <thead>
+        <tr style="background:#f5f5f5;">
+          <th style="padding:10px;">First-author<br>publications</th>
+          <th style="padding:10px;">Co-author<br>publications</th>
+          <th style="padding:10px;">Patent<br>registration</th>
+          <th style="padding:10px;">Patent<br>application</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:10px;">5 papers<br>(Total IF = 107.7)</td>
+          <td style="padding:10px;">8 papers</td>
+          <td style="padding:10px;">19 patents<br>(US = 2)</td>
+          <td style="padding:10px;">5 patents<br>(US = 5)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
 <h2 style="margin-top: 18px; font-size: 22px;">Research Highlights</h2>
