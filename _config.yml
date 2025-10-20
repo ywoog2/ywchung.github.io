@@ -83,9 +83,9 @@ author:
 publication_category:
   books:
     title: 'Books'
-  First authored papers:
+  manuscripts:
     title: 'First authored papers'    
-  Co-authored papers:
+  conferences:
     title: 'Co-authored papers'
 
 # Site Settings
