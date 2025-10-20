@@ -80,7 +80,39 @@ author:
   zhihu            : # Username
 
 # Papers & Patents
-  1st author Publications    : "5 papers (Total IF = 110)"
+<div class="author__extra" style="margin-top: 16px;">
+  <table style="width:100%; text-align:center; font-size: 13px; border-collapse: collapse;">
+    <thead>
+      <tr style="background:#f5f5f5;">
+        <th style="padding:6px 4px;">First-author<br>publications</th>
+        <th style="padding:6px 4px;">Co-author<br>publications</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:8px 4px;">8 papers<br>(Total IF = 124.5)</td>
+        <td style="padding:8px 4px;">9 papers<br>(Total IF = 146.0)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table style="width:100%; text-align:center; font-size: 13px; border-collapse: collapse; margin-top:8px;">
+    <thead>
+      <tr style="background:#f5f5f5;">
+        <th style="padding:6px 4px;">Patent<br>registration</th>
+        <th style="padding:6px 4px;">Patent<br>application</th>
+        <th style="padding:6px 4px;">Technology<br>transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:8px 4px;">6 patents<br>(US = 2)</td>
+        <td style="padding:8px 4px;">10 patents<br>(US = 3)</td>
+        <td style="padding:8px 4px;">300M KRW<br>(≈ 210,000 USD)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
