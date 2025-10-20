@@ -41,15 +41,18 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 </div>
 
 <style>
-/* 이 페이지에서만 쓰는 작은 스코프 */
-.achv table { width: 100%; border-collapse: collapse; font-size: 14px; }
-.achv thead th {
+.achievements table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.achievements thead th {
   background: #f5f5f5;
   padding: 14px 10px;
-  text-align: center !important;      /* 테마의 왼쪽 정렬을 덮어쓰기 */
-  vertical-align: middle !important;   /* 세로 가운데 */
+  text-align: center !important;
+  vertical-align: middle !important;
 }
-.achv tbody td {
+.achievements tbody td {
   padding: 12px 10px;
   text-align: center !important;
   vertical-align: middle !important;
@@ -57,31 +60,29 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 }
 </style>
 
-<div style="width:100%; display:flex; justify-content:center; margin-top:24px;">
-  <div style="width:80%; text-align:center;">
-    <h2 style="margin-bottom:12px;">Achievements</h2>
+<!-- Achievements Section -->
+<div style="margin-top: -8px;"> <!-- 위쪽 간격 줄임 -->
+  <h2 style="text-align:center; margin-bottom:10px;">Achievements</h2>
 
-    <div class="achv">
-      <table>
-        <thead>
-          <tr>
-            <th>First-author<br>publications</th>
-            <th>Co-author<br>publications</th>
-            <th>Patent<br>registration</th>
-            <th>Patent<br>application</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>5 papers<br><small>(Total IF = 107.7)</small></td>
-            <td>8 papers</td>
-            <td>19 patents<br><small>(US = 2)</small></td>
-            <td>5 patents<br><small>(US = 5)</small></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
+  <div class="achievements">
+    <table>
+      <thead>
+        <tr>
+          <th>First-author<br>publications</th>
+          <th>Co-author<br>publications</th>
+          <th>Patent<br>registration</th>
+          <th>Patent<br>application</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>5 papers<br><small>(Total IF = 107.7)</small></td>
+          <td>8 papers</td>
+          <td>19 patents<br><small>(US = 2)</small></td>
+          <td>5 patents<br><small>(US = 5)</small></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
