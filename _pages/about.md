@@ -61,7 +61,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 </style>
 
 <!-- Achievements Section -->
-<div style="margin-top: -20px;"> <!-- Education과의 간격 줄임 -->
+<div style="margin-top: -22px;"> <!-- Education과의 간격 줄임 -->
   <h2 style="margin-bottom:10px; text-align:left;">Achievements</h2>
 
   <div class="achievements">
