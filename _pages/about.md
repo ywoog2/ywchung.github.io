@@ -50,7 +50,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
     <div style="padding:10px 14px 14px;">
       <div style="font-weight:700; text-align:center; margin-top:4px;">Ultrasound-driven energy harvesting</div>
       <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Maximizing triboelectric energy harvesting efficiency for next-generation implantable medical devices.
+        Maximizing triboelectric energy harvesting efficiency for next-generation implantable medical devices
       </div>
       <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Joule (2024)</em></div>
     </div>
@@ -62,7 +62,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
     <div style="padding:10px 14px 14px;">
       <div style="font-weight:700; text-align:center; margin-top:4px;">Battery-free neurostimulators</div>
       <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Implementation of an ultrasound-driven battery-free neurostimulator for intractable disease therapy.
+        Development of an ultrasound-driven battery-free neurostimulator for intractable disease therapy
       </div>
       <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Adv. Mater. (2024)</em></div>
     </div>
@@ -74,7 +74,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
     <div style="padding:10px 14px 14px;">
       <div style="font-weight:700; text-align:center; margin-top:4px;">Ion-based energy harvesting</div>
       <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Development of ultrasound-based data communication technology for miniaturized battery-free implants.
+        Development of ultrasound data communication technology for miniaturized battery-free implants
       </div>
       <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Adv. Energy Mater. (2025)</em></div>
     </div>
@@ -82,9 +82,9 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 
   <!-- 카드 4 -->
   <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
-    <img src="https://ywoog2.github.io/images/4.png" alt="Design of ultrasound-responsive materials" style="width:100%; display:block;">
+    <img src="https://ywoog2.github.io/images/4.png" alt="Ultrasound-responsive materials" style="width:100%; display:block;">
     <div style="padding:10px 14px 14px;">
-      <div style="font-weight:700; text-align:center; margin-top:4px;">Design of ultrasound-responsive materials</div>
+      <div style="font-weight:700; text-align:center; margin-top:4px;">Ultrasound-responsive materials</div>
       <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
         Acoustic-structure simulation and mechanistic studies for efficient energy harvesting
       </div>
