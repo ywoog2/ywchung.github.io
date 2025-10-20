@@ -62,33 +62,33 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
     <div style="padding:10px 14px 14px;">
       <div style="font-weight:700; text-align:center; margin-top:4px;">Battery-free neurostimulators</div>
       <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Implementation of an ultrasound-driven battery-free neurostimulator for intractable disease therapy
+        Implementation of an ultrasound-driven battery-free neurostimulator for intractable disease therapy.
       </div>
-      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>In preparation</em></div>
+      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Adv. Mater. (2024)</em></div>
     </div>
   </div>
 
   <!-- 카드 3 -->
   <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
-    <img src="https://ywoog2.github.io/images/3.png" alt="Ion-based energy harvesting" style="width:100%; display:block;">
+    <img src="https://ywoog2.github.io/images/3.png" alt="Ultrasound-based data communication" style="width:100%; display:block;">
     <div style="padding:10px 14px 14px;">
       <div style="font-weight:700; text-align:center; margin-top:4px;">Ion-based energy harvesting</div>
       <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        DC generators leveraging asymmetric ion distributions for sustained output in aqueous media.
+        Development of ultrasound-based data communication technology for miniaturized battery-free implants.
       </div>
-      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Submitted</em></div>
+      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Adv. Energy Mater. (2025)</em></div>
     </div>
   </div>
 
   <!-- 카드 4 -->
   <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
-    <img src="https://ywoog2.github.io/images/4.png" alt="Triboelectric energy harvesting" style="width:100%; display:block;">
+    <img src="https://ywoog2.github.io/images/4.png" alt="Design of ultrasound-responsive materials" style="width:100%; display:block;">
     <div style="padding:10px 14px 14px;">
-      <div style="font-weight:700; text-align:center; margin-top:4px;">Triboelectric energy harvesting</div>
+      <div style="font-weight:700; text-align:center; margin-top:4px;">Design of ultrasound-responsive materials</div>
       <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Mechanistic studies of electrostatic generation and device architectures for efficient harvesting.
+        Acoustic-structure simulation and mechanistic studies for efficient energy harvesting
       </div>
-      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Mater. Today (2024)</em></div>
+      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Adv. Energy Mater. (under review)</em></div>
     </div>
   </div>
 
