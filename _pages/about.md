@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Advanced Materials Science & Engineering at Sungkyunkwan University (advisor: Prof. Sang-Woo Kim)
-My research focus is ultrasound-driven energy harvesting for biomedical applications. 
+I am a PhD candidate in Advanced Materials Science & Engineering at Sungkyunkwan University (advisor: Prof. [Sang-Woo Kim](https://scholar.google.com/citations?user=qCyU-VoAAAAJ&hl=en)).
+My research focus is ultrasound-driven energy harvesting for biomedical applications. I 
 <div style="display: flex; justify-content: flex-start; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 250px; max-width: 45%; margin-right: 40px;">
     <h2 style="font-size: 22px;">Interests</h2>
