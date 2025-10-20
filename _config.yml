@@ -99,6 +99,12 @@ author:
       </tbody>
     </table>
 
+{% if site.author.sidebar_stats %}
+  <div class="sidebar_stats" style="margin-top:15px;">
+    {{ site.author.sidebar_stats | markdownify }}
+  </div>
+{% endif %}
+
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
