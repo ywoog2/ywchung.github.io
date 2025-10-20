@@ -79,10 +79,8 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-sidebar_stats: |
-  <table style="width:100%; text-align:center; font-size:12px;">
-    <tr><td><b>First-author</b><br>8 papers (IF 124.5)</td></tr>
-  </table>
+# Papers & Patents
+  1st author Publications    : 5 papers (Total IF = 110)
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
