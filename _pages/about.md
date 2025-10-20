@@ -20,7 +20,7 @@ My research focuses on the development of advanced ultrasound transducers for bi
     </ul>
   </div>
 
-  <div style="flex: 1; min-width: 300px; max-width: 50%;">
+  <div style="flex: 1; min-width: 300px; max-width: 55%;">
     <h2 style="font-size: 22px;">Education</h2>
     <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 16px;">
       <li><i class="fas fa-graduation-cap" style="margin-right: 6px;"></i>
