@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD candidate in Advanced Materials Science & Engineering at Sungkyunkwan University (advisor: Prof. [Sang-Woo Kim](https://scholar.google.com/citations?user=qCyU-VoAAAAJ&hl=en)).
 My research focuses on the development of advanced ultrasound transducers for biomedical applications. i)I synthesize functional composite materials and fabricate devices for triboelectric energy harvesting aimed at powering implantable medical systems. In addition, ii)I design and develop wearable ultrasound transeirvers optimized for efficient acoustic power transfer. I have extensive experience in Multiphysics simulations and preclinical evaluations for bioengineering applications, including nerve regeneration, neuromodulation, and pain management. 
-<div style="display: flex; justify-content: flex-start; flex-wrap: wrap;">
+<div style="margin-top: -10px; display: flex; justify-content: flex-start; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 250px; max-width: 45%; margin-right: 40px;">
     <h2 style="font-size: 22px;">Interests</h2>
     <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 16px;">
