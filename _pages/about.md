@@ -70,9 +70,9 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 
   <!-- 카드 3 -->
   <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
-    <img src="https://ywoog2.github.io/images/3.png" alt="Ultrasound-based data communication" style="width:100%; display:block;">
+    <img src="https://ywoog2.github.io/images/3.png" alt="Ultrasound data communication" style="width:100%; display:block;">
     <div style="padding:10px 14px 14px;">
-      <div style="font-weight:700; text-align:center; margin-top:4px;">Ion-based energy harvesting</div>
+      <div style="font-weight:700; text-align:center; margin-top:4px;">Ultrasound data communication</div>
       <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
         Development of ultrasound data communication technology for miniaturized battery-free implants
       </div>
