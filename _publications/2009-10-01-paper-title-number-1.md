@@ -1,7 +1,7 @@
 ---
 title: "Acoustic Impedance-tailored high performance ultrasound-driven triboelectric nanogenerators"
 collection: publications
-category: manuscripts
+category: First authored papers
 permalink: /publication/under review-Acoustic Impedance-tailored high performance ultrasound-driven triboelectric nanogenerators
 date: under review
 venue: 'Advanced Energy Materials'
