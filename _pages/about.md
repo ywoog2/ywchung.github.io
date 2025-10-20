@@ -42,23 +42,23 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 
 <div style="width:100%; display:flex; justify-content:center; margin-top:24px;">
   <div style="width:80%; text-align:center;">
-    <h2 style="margin-bottom:8px;">Achievements</h2>
+    <h2 style="margin-bottom:12px; font-size: 22px;">Achievements</h2>
 
     <table style="width:100%; text-align:center; font-size:14px; border-collapse:collapse; margin-top:8px;">
       <thead>
         <tr style="background:#f5f5f5;">
-          <th style="padding:10px;">First-author<br>publications</th>
-          <th style="padding:10px;">Co-author<br>publications</th>
-          <th style="padding:10px;">Patent<br>registration</th>
-          <th style="padding:10px;">Patent<br>application</th>
+          <th style="padding:14px; vertical-align:middle;">First-author<br>publications</th>
+          <th style="padding:14px; vertical-align:middle;">Co-author<br>publications</th>
+          <th style="padding:14px; vertical-align:middle;">Patent<br>registration</th>
+          <th style="padding:14px; vertical-align:middle;">Patent<br>application</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td style="padding:10px;">5 papers<br>(Total IF = 107.7)</td>
-          <td style="padding:10px;">8 papers</td>
-          <td style="padding:10px;">19 patents<br>(US = 2)</td>
-          <td style="padding:10px;">5 patents<br>(US = 5)</td>
+          <td style="padding:12px;">5 papers<br>(Total IF = 107.7)</td>
+          <td style="padding:12px;">8 papers</td>
+          <td style="padding:12px;">19 patents<br>(US = 2)</td>
+          <td style="padding:12px;">5 patents<br>(US = 5)</td>
         </tr>
       </tbody>
     </table>
