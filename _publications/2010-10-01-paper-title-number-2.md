@@ -1,6 +1,6 @@
 ---
 title: "Ultrasound-Powered, Battery-Free Implants via Triboelectric Energy Harvesting"
-collection: First authored papers
+collection: publications
 category: manuscripts
 permalink: /publication/2025-09-26-paper-Ultrasound-Powered, Battery-Free Implants via Triboelectric Energy Harvesting
 date: 2025-09-26
