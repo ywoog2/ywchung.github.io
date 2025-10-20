@@ -44,7 +44,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 .achievements table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 16px;
+  font-size: 14px;
 }
 .achievements thead th {
   background: #f5f5f5;
@@ -61,8 +61,8 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 </style>
 
 <!-- Achievements Section -->
-<div style="margin-top: -8px;"> <!-- 위쪽 간격 줄임 -->
-  <h2 style="text-align:center; margin-bottom:10px;">Achievements</h2>
+<div style="margin-top: -8px;"> <!-- Education과의 간격 줄임 -->
+  <h2 style="margin-bottom:10px; text-align:left;">Achievements</h2>
 
   <div class="achievements">
     <table>
