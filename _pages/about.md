@@ -44,7 +44,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 .achievements table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 14px;
+  font-size: 16px;
 }
 .achievements thead th {
   background: #f5f5f5;
