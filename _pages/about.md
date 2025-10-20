@@ -13,7 +13,7 @@ My research focus is ultrasound-driven energy harvesting for biomedical applicat
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 250px; margin-right: 20px;">
     <h2>Interests</h2>
-    <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 14px;">     
+    <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 16px;">     
       <li><i class="fas fa-book"></i> Energy harvesting</li>
       <li><i class="fas fa-book"></i> Ultrasound-responsive materials</li>
       <li><i class="fas fa-book"></i> Wearable Ultrasound</li>
@@ -23,7 +23,7 @@ My research focus is ultrasound-driven energy harvesting for biomedical applicat
 
   <div style="flex: 1; min-width: 250px;">
     <h2>Education</h2>
-    <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 14px;">     
+    <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 16px;">     
       <li><i class="fas fa-graduation-cap"></i> Ph.D. student in Advanced Materials Science and Engineering<br>
           <strong>Sungkyunkwan University (SKKU)</strong>, present
       </li>
