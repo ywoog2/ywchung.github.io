@@ -31,6 +31,7 @@ author:
   employer         : "Sungkyunkwan University (SKKU)"
   uri              : # URL
   email            : "pebble3@skku.edu" 
+  CV               : "https://ywoog2.github.io/files/CV_Youngwook Chung.pdf"
 
   # Academic websites
   academia         : # URL
@@ -43,7 +44,6 @@ author:
   pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
-  CV               : "https://ywoog2.github.io/files/CV_Youngwook Chung.pdf"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
