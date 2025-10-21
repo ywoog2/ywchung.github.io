@@ -1,0 +1,9 @@
+---
+title: "Structurally Tuned Porous Polyimide Composites for High-Performance Ultrasound-Driven Triboelectric Implants"
+collection: publications
+date: 2025-01-10
+authors: "Y.-J. Kim, J. Hwang, B.-J. Park, Y. Chung, S. H. Choi, S.-H. Kim, D. H. Park, Y. Lee, S. Yoo, J. Park, J. C. Won, S. H. Nam, B.-O. Choi, S.-W. Kim*, Y. H. Kim"
+venue: "ACS Nano"
+volume: "under review"
+first_author:     # 첫저자면 true, 아니면 생략/false
+---
