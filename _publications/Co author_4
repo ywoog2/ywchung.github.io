@@ -1,0 +1,11 @@
+---
+title: "In-body current path manipulation with minimal attenuation"
+collection: publications
+date: 2025-01-10
+authors: "D. Kang, B-J. Park, J.-H. Hwang, Y.-J. Kim, S.-H. Kim, H. W. Kim, K. J. Yu, J. Jeon, H. Y. Lee, Y. Chung, S. H. Nam, B.-O. Choi, S.-W. Kim"
+venue: "Sci. Adv."
+volume: "11"
+pages: "eadx5922"
+paperurl: "https://www.science.org/doi/10.1126/sciadv.adx5922"
+first_author:     # 첫저자면 true, 아니면 생략/false
+---
