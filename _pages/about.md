@@ -86,7 +86,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   </div>
 </div>
 
-<h2 style="margin-top: 18px; font-size: 22px;">Research Highlights</h2>
+<h2 id="highlights" style="margin-top: 18px; font-size: 22px;">Research Highlights</h2>
 
 <div style="display:flex; gap:18px; flex-wrap:wrap; align-items:stretch;">
 
