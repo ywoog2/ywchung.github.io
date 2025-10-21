@@ -18,29 +18,3 @@
 
 <!-- end custom footer snippets -->
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const nav = document.querySelector('.greedy-nav');
-  if (!nav) return;
-
-  const visible = nav.querySelector('.visible-links');
-  const hidden  = nav.querySelector('.hidden-links');
-  const toggle  = nav.querySelector('.greedy-nav__toggle');
-
-  function ungreedy() {
-    if (hidden && visible) {
-      // 숨겨진 메뉴를 전부 되돌림
-      while (hidden.firstElementChild) {
-        visible.appendChild(hidden.firstElementChild);
-      }
-    }
-    // 데스크톱에선 토글 버튼 숨김
-    if (toggle && window.innerWidth >= 992) {
-      toggle.style.display = 'none';
-    }
-  }
-
-  ungreedy();
-  window.addEventListener('resize', ungreedy);
-});
-</script>
