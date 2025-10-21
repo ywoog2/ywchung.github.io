@@ -2,7 +2,7 @@
 title: "Gigantic triboelectric power generation overcoming acoustic energy barrier using metal-liquid coupling"
 collection: publications
 date: 2024-09-18
-authors: "Y. Chung#, J.-M. Jeong#, J.-H. Hwang#, Y.-J. Kim, B.-J. Park, D. S. Cho, Y. Cho, S. J. Suh, B.-O. Choi, H. Park*, H.-J. Yoon*, S.-W. Kim*"
+authors: "Y. Chung, J.-M. Jeong, J.-H. Hwang, Y.-J. Kim, B.-J. Park, D. S. Cho, Y. Cho, S. J. Suh, B.-O. Choi, H. Park, H.-J. Yoon, S.-W. Kim"
 venue: "Joule"
 volume: "8"
 pages: "2681-2695"
