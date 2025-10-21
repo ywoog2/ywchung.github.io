@@ -90,7 +90,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   /* 링크 스타일이 카드에 묻히도록 */
   .card-link { display:block; text-decoration:none; color:inherit; }
   .card { flex:1 1 320px; max-width:360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden; }
-  .card img { width:100%; display:block; }
+  .card img { width:95%; height: auto; object-fit: contain; display:block; margin: 8px auto; border-radius: 6px;}
   .card .body { padding:10px 14px 14px; }
   .card .title { font-weight:700; text-align:center; margin-top:4px; }
   .card .desc  { font-size:14px; color:#555; text-align:center; margin-top:6px; }
