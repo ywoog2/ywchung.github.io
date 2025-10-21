@@ -16,10 +16,9 @@
 
 <!-- end custom head snippets -->
 
-.masthead__menu-item {
-  margin-right: 35px;
-}
-
-.masthead__menu-item:last-child {
-  margin-right: 0;
-}
+<style>
+  /* 상단 메뉴 간격/정렬 (Minimal Mistakes / AcademicPages) */
+  .greedy-nav .visible-links { display: flex; gap: 36px; } /* 간격 */
+  /* 구형 셀렉터 호환 */
+  .masthead__menu-item { margin-right: 0 !important; } /* gap 쓰므로 0 */
+</style>
