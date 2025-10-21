@@ -17,30 +17,16 @@
 <!-- end custom head snippets -->
 
 <style>
-/* ===== Nav (Greedy-Nav) 고정: 데스크톱에서는 항상 전부 보이게 ===== */
-.greedy-nav { flex-wrap: nowrap !important; overflow: visible; }
-
-/* 링크 영역이 한 줄을 충분히 차지하도록 */
+/* 메뉴 간격 + 중앙정렬 (폭을 크게 잡지 않도록 최소만) */
 .greedy-nav .visible-links {
   display: flex !important;
-  flex: 1 1 auto !important;   /* 가용폭 차지 */
-  max-width: none !important;
-  gap: 24px;                   /* 간격: 22~28px 정도가 안정적 */
-  justify-content: center;     /* 원하면 left/right로 변경 가능 */
+  justify-content: center;
+  gap: 28px;              /* 24~32px 사이에서 취향대로 */
   flex-wrap: nowrap !important;
 }
 
-.greedy-nav .visible-links > li { white-space: nowrap; }
-
-/* 데스크톱에서는 햄버거/히든 메뉴 숨김 */
+/* 데스크톱에서 토글은 숨김(스크립트도 같이 적용할 것) */
 @media (min-width: 992px) {
   .greedy-nav__toggle { display: none !important; }
-  .greedy-nav .hidden-links { display: none !important; }
 }
-
-/* 메뉴 텍스트가 너무 커서 줄어들 경우를 대비해 살짝 줄임(선택) */
-/* .masthead__menu-item a { font-size: 16px; } */
-
-/* 필요시 상단 제목/로고가 너무 넓게 차지하면 간격 축소(테마에 따라) */
-/* .masthead .site-title { margin-right: 1rem !important; } */
 </style>
