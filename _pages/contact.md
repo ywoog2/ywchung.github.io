@@ -34,22 +34,22 @@ author_profile: false
 }
 </style>
 
-<div class="contact-container">
-  <!-- 지도 -->
-  <div class="contact-map">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.253510258865!2d127.0255073758593!3d37.29351137209373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b4bb73acb0e2b%3A0x16cbeae72f2dcb60!2z7ISc6rCV64Ko64yA7ZWZ6rWQIOyEnOyauO2YuO2ZlOyaqeyXrQ!5e0!3m2!1sko!2skr!4v1730208500000!5m2!1sko!2skr"
-      allowfullscreen=""
-      loading="lazy">
-    </iframe>
-  </div>
+<div class="contact-map">
+  <iframe
+    src="https://www.google.com/maps?q=%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9E%90%EC%97%B0%EA%B3%BC%ED%95%99%EC%BA%A0%ED%8D%BC%EC%8A%A4&hl=ko&z=16&output=embed"
+    width="400" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+  </iframe>
+  <p style="text-align:center; margin-top:5px;">
+    <a href="https://www.google.com/maps/search/?api=1&query=%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9E%90%EC%97%B0%EA%B3%BC%ED%95%99%EC%BA%A0%ED%8D%BC%EC%8A%A4"
+       target="_blank" rel="noopener">큰 지도 보기</a>
+  </p>
+</div>
 
   <!-- 연락처 -->
   <div class="contact-info">
     <p><strong>Email:</strong> <a href="mailto:pebble3@skku.edu">pebble3@skku.edu</a></p>
     <p><strong>Phone:</strong> +82-10-7724-4279</p>
     <br>
-    <p><strong>I am seeking a postdoctoral position in the field of bioelectronics.<br>
-    Please feel free to contact me.</strong></p>
+    <p><strong>I am seeking a postdoctoral position in the field of bioelectronics. Please feel free to contact me.</strong></p>
   </div>
 </div>
