@@ -4,6 +4,6 @@ collection: publications
 date: 2025-01-10
 authors: "Y.-J. Kim#, Y. Chung#, J.-H. Hwang#, J.-M. Jeong, B. Kim, D. Kang, B.-O. Choi, H.-J. Yoon, S.-W. Kim"
 venue: "Adv. Energy. Mater."
-Volume: "under review"
+volume: "under review"
 first_author: true     # 첫저자면 true, 아니면 생략/false
 ---
