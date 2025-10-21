@@ -43,10 +43,6 @@ author_profile: false
         allowfullscreen="" loading="lazy">
       </iframe>
     </a>
-    <p style="text-align:center; margin-top:8px;">
-      <a href="https://www.google.com/maps/@37.2937619,126.9752556,17z"
-         target="_blank" rel="noopener">Google Map</a>
-    </p>
   </div>
 
   <div class="contact-info">
