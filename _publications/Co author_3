@@ -1,0 +1,11 @@
+---
+title: "Polydopamine-coated iron-nickel alloy and epoxy composites for electromagnetic interference shielding"
+collection: publications
+date: 2024-01-10
+authors: "H. Kim, S. Jeon, Y. S. Cho, C. H, S. N, J. Lee, Y. Chung, J. Kang, S.-W Kim, D. Choi"
+venue: "J. Appl Polym Sci."
+volume: "141"
+pages: "e56187"
+paperurl: "http://doi.org/10.1002/app.56187"
+first_author:     # 첫저자면 true, 아니면 생략/false
+---
