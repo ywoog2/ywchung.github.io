@@ -86,56 +86,68 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   </div>
 </div>
 
+<style>
+  /* 링크 스타일이 카드에 묻히도록 */
+  .card-link { display:block; text-decoration:none; color:inherit; }
+  .card { flex:1 1 320px; max-width:360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden; }
+  .card img { width:100%; display:block; }
+  .card .body { padding:10px 14px 14px; }
+  .card .title { font-weight:700; text-align:center; margin-top:4px; }
+  .card .desc  { font-size:14px; color:#555; text-align:center; margin-top:6px; }
+  .card .venue { font-size:12px; color:#888; text-align:right; margin-top:6px; font-style:italic; }
+  .card:hover { box-shadow:0 6px 16px rgba(0,0,0,0.12); }
+</style>
+
 <h2 id="highlights" style="margin-top: 18px; font-size: 22px;">Research Highlights</h2>
 
 <div style="display:flex; gap:18px; flex-wrap:wrap; align-items:stretch;">
 
   <!-- 카드 1 -->
-  <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
-    <img src="https://ywoog2.github.io/images/1.png" alt="Ultrasound-driven energy harvesting" style="width:100%; display:block;">
-    <div style="padding:10px 14px 14px;">
-      <div style="font-weight:700; text-align:center; margin-top:4px;">Ultrasound-driven energy harvesting</div>
-      <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Maximizing triboelectric energy harvesting efficiency for next-generation implantable medical devices
+  <a class="card-link" href="{{ site.baseurl }}/files/harvesting.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound-driven energy harvesting">
+    <div class="card">
+      <img src="{{ site.baseurl }}/assets/images/highlights/harvesting.png" alt="Ultrasound-driven energy harvesting">
+      <div class="body">
+        <div class="title">Ultrasound-driven energy harvesting</div>
+        <div class="desc">Maximizing triboelectric energy harvesting efficiency for next-generation implantable medical devices</div>
+        <div class="venue"><em>Joule (2024)</em></div>
       </div>
-      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Joule (2024)</em></div>
     </div>
-  </div>
+  </a>
 
-  <!-- 카드 2 -->
-  <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
-    <img src="https://ywoog2.github.io/images/2.png" alt="Battery-free neurostimulators" style="width:100%; display:block;">
-    <div style="padding:10px 14px 14px;">
-      <div style="font-weight:700; text-align:center; margin-top:4px;">Battery-free neurostimulators</div>
-      <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Development of an ultrasound-driven battery-free neurostimulator for intractable disease therapy
+   <!-- 카드 2 -->
+  <a class="card-link" href="{{ site.baseurl }}/files/neurostimulator.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Battery-free neurostimulators">
+    <div class="card">
+      <img src="{{ site.baseurl }}/assets/images/highlights/neurostim.png" alt="Battery-free neurostimulators">
+      <div class="body">
+        <div class="title">Battery-free neurostimulators</div>
+        <div class="desc">Development of an ultrasound-driven battery-free neurostimulator for intractable disease therapy</div>
+        <div class="venue"><em>Adv. Mater. (2024)</em></div>
       </div>
-      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Adv. Mater. (2024)</em></div>
     </div>
-  </div>
+  </a>
 
   <!-- 카드 3 -->
-  <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
-    <img src="https://ywoog2.github.io/images/3.png" alt="Ultrasound data communication" style="width:100%; display:block;">
-    <div style="padding:10px 14px 14px;">
-      <div style="font-weight:700; text-align:center; margin-top:4px;">Ultrasound data communication</div>
-      <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Development of ultrasound data communication technology for miniaturized battery-free implants
+  <a class="card-link" href="{{ site.baseurl }}/files/datacomm.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound data communication">
+    <div class="card">
+      <img src="{{ site.baseurl }}/assets/images/highlights/datacomm.png" alt="Ultrasound data communication">
+      <div class="body">
+        <div class="title">Ultrasound data communication</div>
+        <div class="desc">Development of ultrasound data communication technology for miniaturized battery-free implants</div>
+        <div class="venue"><em>Adv. Energy Mater. (2025)</em></div>
       </div>
-      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Adv. Energy Mater. (2025)</em></div>
     </div>
-  </div>
+  </a>
 
   <!-- 카드 4 -->
-  <div style="flex:1 1 320px; max-width: 360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden;">
-    <img src="https://ywoog2.github.io/images/4.png" alt="Ultrasound-responsive materials" style="width:100%; display:block;">
-    <div style="padding:10px 14px 14px;">
-      <div style="font-weight:700; text-align:center; margin-top:4px;">Ultrasound-responsive materials</div>
-      <div style="font-size:14px; color:#555; text-align:center; margin-top:6px;">
-        Acoustic-structure simulation and mechanistic studies for efficient energy harvesting
+  <a class="card-link" href="{{ site.baseurl }}/files/responsive_materials.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound-responsive materials">
+    <div class="card">
+      <img src="{{ site.baseurl }}/assets/images/highlights/responsive.png" alt="Ultrasound-responsive materials">
+      <div class="body">
+        <div class="title">Ultrasound-responsive materials</div>
+        <div class="desc">Acoustic-structure simulation and mechanistic studies for efficient energy harvesting</div>
+        <div class="venue"><em>Adv. Energy Mater. (under review)</em></div>
       </div>
-      <div style="font-size:14px; color:#888; text-align:right; margin-top:6px;"><em>Adv. Energy Mater. (under review)</em></div>
     </div>
-  </div>
+  </a>
 
 </div>
