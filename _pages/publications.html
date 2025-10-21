@@ -18,7 +18,7 @@ author_profile: true
 .publist .journal { font-style: italic; color: #b23a2b; } /* 저널 색상+이탤릭 */
 </style>
 
-{% assign pubs = site.publications | sort:"date" | reverse %}
+{% assign pubs = site.publications | sort:"date" %}
 {% assign me = site.author.pub_abbrev | default: "Y. Chung" %}
 {% capture bold_me %}<strong>{{ me }}</strong>{% endcapture %}
 
