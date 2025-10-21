@@ -3,9 +3,9 @@ title: "Gigantic triboelectric power generation overcoming acoustic energy barri
 collection: publications
 category: manuscripts
 permalink: /publication/2024-09-18-Gigantic triboelectric power generation overcoming acoustic energy barrier using metal-liquid coupling
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: 'Y. Chung#, J.-M. Jeong#, J.-H. Hwang#, Y.-J. Kim, B.-J. Park, D. S. Cho, Y. Cho, S. J. Suh, B.-O. Choi, H. Park*, H.-J. Yoon*, S.-W. Kim*'
 date: 2024-09-18
-venue: 'Joule'
+venue: 'Joule 8, 1-15'
 paperurl: 'https://academicpages.github.io/files/Gigantic triboelectric power generation overcoming acoustic energy barrier using metal-liquid coupling.pdf'
 ---
 
