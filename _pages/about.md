@@ -105,7 +105,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   <!-- 카드 1 -->
   <a class="card-link" href="{{ site.baseurl }}/files/harvesting.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound-driven energy harvesting">
     <div class="card">
-      <img src="https://ywoog2.github.io/images/1.png" alt="Ultrasound-driven energy harvesting" style="width:100%; display:block;">
+      <img src="https://ywoog2.github.io/images/1.png" alt="Ultrasound-driven energy harvesting">
       <div class="body">
         <div class="title">Ultrasound-driven energy harvesting</div>
         <div class="desc">Maximizing triboelectric energy harvesting efficiency for next-generation implantable medical devices</div>
@@ -117,7 +117,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
    <!-- 카드 2 -->
   <a class="card-link" href="{{ site.baseurl }}/files/neurostimulator.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Battery-free neurostimulators">
     <div class="card">
-      <img src="https://ywoog2.github.io/images/2.png" alt="Battery-free neurostimulators" style="width:100%; display:block;">
+      <img src="https://ywoog2.github.io/images/2.png" alt="Battery-free neurostimulators">
       <div class="body">
         <div class="title">Battery-free neurostimulators</div>
         <div class="desc">Development of an ultrasound-driven battery-free neurostimulator for intractable disease therapy</div>
@@ -129,7 +129,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   <!-- 카드 3 -->
   <a class="card-link" href="{{ site.baseurl }}/files/datacomm.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound data communication">
     <div class="card">
-      <img src="https://ywoog2.github.io/images/3.png" alt="Ultrasound data communication" style="width:100%; display:block;"> 
+      <img src="https://ywoog2.github.io/images/3.png" alt="Ultrasound data communication"> 
       <div class="body">
         <div class="title">Ultrasound data communication</div>
         <div class="desc">Development of ultrasound data communication technology for miniaturized battery-free implants</div>
@@ -139,15 +139,13 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   </a>
 
   <!-- 카드 4 -->
-  <a class="card-link" href="{{ site.baseurl }}/files/responsive_materials.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound-responsive materials">
     <div class="card">
-      <img src="https://ywoog2.github.io/images/4.png" alt="Ultrasound-responsive materials" style="width:100%; display:block;">
+      <img src="https://ywoog2.github.io/images/4.png" alt="Ultrasound-responsive materials">
       <div class="body">
         <div class="title">Ultrasound-responsive materials</div>
         <div class="desc">Acoustic-structure simulation and mechanistic studies for efficient energy harvesting</div>
         <div class="venue"><em>Adv. Energy Mater. (under review)</em></div>
       </div>
     </div>
-  </a>
 
 </div>
