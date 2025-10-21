@@ -17,8 +17,22 @@
 <!-- end custom head snippets -->
 
 <style>
-  /* 상단 메뉴 간격/정렬 (Minimal Mistakes / AcademicPages) */
-  .greedy-nav .visible-links { display: flex; gap: 36px; } /* 간격 */
-  /* 구형 셀렉터 호환 */
-  .masthead__menu-item { margin-right: 0 !important; } /* gap 쓰므로 0 */
+/* 네비게이션 메뉴 정렬 및 간격 조정 */
+.greedy-nav .visible-links {
+  display: flex !important;
+  justify-content: center; /* 가운데 정렬 */
+  gap: 40px; /* 메뉴 간격 */
+  flex-wrap: nowrap !important; /* 메뉴 줄바꿈 방지 */
+}
+
+.greedy-nav {
+  flex-wrap: nowrap !important; /* 상단 바 전체 줄바꿈 방지 */
+}
+
+/* 햄버거 버튼이 너무 빨리 뜨지 않게 - 화면 폭 줄였을 때만 */
+@media (max-width: 800px) {
+  .greedy-nav .visible-links {
+    display: none !important;
+  }
+}
 </style>
