@@ -1,0 +1,10 @@
+---
+title: "High-performing and capacitive-matched triboelectric implants driven by ultrasound"
+collection: publications
+date: 2024-01-10
+authors: "Y.-J. Kim, J. Lee, J.-H Hwang, Y. Chung, B. J. Park, J. Kim, S.-H. Kim, H.-J. Yoon, S.-M. Park, S.-W. Kim"
+venue: "Adv. Mater."
+volume: "36"
+pages: "2307194"
+first_author:     # 첫저자면 true, 아니면 생략/false
+---
