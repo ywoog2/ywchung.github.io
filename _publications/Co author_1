@@ -6,5 +6,6 @@ authors: "Y.-J. Kim, J. Lee, J.-H Hwang, Y. Chung, B. J. Park, J. Kim, S.-H. Kim
 venue: "Adv. Mater."
 volume: "36"
 pages: "2307194"
+paperurl: "https://doi.org/10.1002/adma.202307194"
 first_author:     # 첫저자면 true, 아니면 생략/false
 ---
