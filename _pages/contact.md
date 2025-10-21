@@ -44,7 +44,7 @@ author_profile: false
       </iframe>
     </a>
     <p style="text-align:center; margin-top:8px;">
-      <a href="https://www.google.com/maps/place/%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90+%EC%9E%90%EC%97%B0%EA%B3%BC%ED%95%99%EC%BA%A0%ED%8D%BC%EC%8A%A4"
+      <a href="https://www.google.com/maps/@37.2937619,126.9752556,17z"
          target="_blank" rel="noopener">Google Map</a>
     </p>
   </div>
