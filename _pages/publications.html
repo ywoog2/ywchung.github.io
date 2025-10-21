@@ -1,36 +1,47 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
+{% include base_path %}
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2 style="margin-top: 18px;">First author</h2>
+<ol>
+{% for p in pubs %}
+  {% if p.first_author == true %}
+    <li>
+      {% if p.paperurl %}<a href="{{ p.paperurl }}">{% endif %}
+      {{ p.title }}{% if p.paperurl %}</a>{% endif %}
+      {% if p.venue %}, <em>{{ p.venue }}</em>{% endif %}
+      {% if p.date %}, {{ p.date | date: "%Y" }}{% endif %}
+      {% if p.note %} — {{ p.note }}{% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+<h2 style="margin-top: 18px;">Co-author</h2>
+<ol>
+{% for p in pubs %}
+  {% unless p.first_author == true %}
+    <li>
+      {% if p.paperurl %}<a href="{{ p.paperurl }}">{% endif %}
+      {{ p.title }}{% if p.paperurl %}</a>{% endif %}
+      {% if p.venue %}, <em>{{ p.venue }}</em>{% endif %}
+      {% if p.date %}, {{ p.date | date: "%Y" }}{% endif %}
+      {% if p.note %} — {{ p.note }}{% endif %}
+    </li>
+  {% endunless %}
+{% endfor %}
+</ol>
 
 
 
