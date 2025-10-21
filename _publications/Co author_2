@@ -1,0 +1,11 @@
+---
+title: "Body-coupled energy enabling unrestricted microbial disinfection using polymer nanorods"
+collection: publications
+date: 2024-01-10
+authors: "Y.-J. Kim, Z.-Y. Huo, H. Dai, D.-M. Lee, I.-Y. Suh, J.-H. Hwang, Y. Chung, H. Y. Lee, Y. Du, W. Ding, X. Wang, S.-W. Kim"
+venue: "Nat. Water."
+volume: "2"
+pages: "360-369"
+paperurl: "https://doi.org/10.1038/s44221-024-00226-5"
+first_author:     # 첫저자면 true, 아니면 생략/false
+---
