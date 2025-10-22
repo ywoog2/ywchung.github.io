@@ -12,10 +12,28 @@ author_profile: true
 {% endif %}
 
 <style>
-/* 간단 스타일 */
+/* 리스트 기본 여백 */
 .publist { margin: 10px 0 4px; padding-left: 20px; }
-.publist li { margin: 6px 0 10px; line-height: 1.5; }
-.publist .journal { font-style: italic; color: #00bcd4; } /* 저널 색상+이탤릭 */
+.publist li { margin: 6px 0 10px; line-height: 1.6; }
+
+/* 저널 스타일: 밝은 주황 + 이탤릭 + 약간 굵게 */
+.publist .journal {
+  font-style: italic;
+  color: #FFA726;          /* 약간 밝은 주황 */
+  font-weight: 600;
+}
+
+/* 논문 제목 컬러만 별도 지정 (다른 링크에는 영향 X) */
+.publist .title {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+}
+.publist a.title:hover,
+.publist a.title:focus {
+  color: #26c6da;
+  text-decoration: underline;
+}
 </style>
 
 {% assign pubs = site.publications | sort:"date" %}
@@ -29,8 +47,11 @@ author_profile: true
     {% assign authors_fmt = p.authors | replace: me, bold_me %}
     <li>
       {{ authors_fmt }}.
-      {% if p.paperurl %}<a href="{{ p.paperurl }}">{% endif %}
-      {{ p.title }}{% if p.paperurl %}</a>{% endif %},
+      {% if p.paperurl %}
+        <a class="title" href="{{ p.paperurl }}">{{ p.title }}</a>,
+      {% else %}
+        <span class="title">{{ p.title }}</span>,
+      {% endif %}
       <span class="journal">{{ p.venue }}</span>
       {% if p.volume %} {{ p.volume }}{% endif %}
       {% if p.pages %}, {{ p.pages }}{% endif %}
@@ -47,8 +68,11 @@ author_profile: true
     {% assign authors_fmt = p.authors | replace: me, bold_me %}
     <li>
       {{ authors_fmt }}.
-      {% if p.paperurl %}<a href="{{ p.paperurl }}">{% endif %}
-      {{ p.title }}{% if p.paperurl %}</a>{% endif %},
+      {% if p.paperurl %}
+        <a class="title" href="{{ p.paperurl }}">{{ p.title }}</a>,
+      {% else %}
+        <span class="title">{{ p.title }}</span>,
+      {% endif %}
       <span class="journal">{{ p.venue }}</span>
       {% if p.volume %} {{ p.volume }}{% endif %}
       {% if p.pages %}, {{ p.pages }}{% endif %}
