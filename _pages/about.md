@@ -8,7 +8,7 @@ redirect_from:
 ---
 <p style="text-align: justify;">
 I am a PhD candidate in Advanced Materials Science & Engineering at Sungkyunkwan University (advisor: Prof. <a href="https://scholar.google.com/citations?user=qCyU-VoAAAAJ&hl=en">Sang-Woo Kim</a>).
-My research focuses on the development of *(i)* implantable and (ii) wearable ultrasound systems for biomedical applications. 
+My research focuses on the development of <em>(i)</em> implantable and (ii) wearable ultrasound systems for biomedical applications. 
 i) I synthesize functional composite materials and fabricate devices for ultrasound-driven triboelectric energy harvesters aimed at powering implantable medical systems. 
 In addition, ii) I design and develop wearable ultrasound patches optimized for efficient acoustic power transfer. 
 I have extensive experience in multiphysics simulations and preclinical evaluations for biomedical applications, including nerve regeneration, neuromodulation, and pain management.
