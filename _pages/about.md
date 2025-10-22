@@ -229,3 +229,7 @@ a, a:visited, a:hover, a:focus {
   font-weight: 500;
 }
 </style>
+
+<style>
+  html { scroll-behavior: smooth; }
+</style>
