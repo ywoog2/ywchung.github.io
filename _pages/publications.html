@@ -12,26 +12,24 @@ author_profile: true
 {% endif %}
 
 <style>
-/* 리스트 기본 여백 */
+/* 리스트 기본 여백 및 가독성 */
 .publist { margin: 10px 0 4px; padding-left: 20px; }
 .publist li { margin: 6px 0 10px; line-height: 1.6; }
 
-/* 저널 스타일: 밝은 주황 + 이탤릭 + 약간 굵게 */
+/* 저널 스타일: #00bcd4 + 이탤릭 + 약간 굵게 */
 .publist .journal {
   font-style: italic;
-  color: #FFA726;          /* 약간 밝은 주황 */
+  color: #00bcd4;
   font-weight: 600;
 }
 
-/* 논문 제목 컬러만 별도 지정 (다른 링크에는 영향 X) */
-.publist .title {
-  color: #00bcd4;
+/* 링크 기본 (논문 제목은 색상 없이) */
+.publist a {
+  color: inherit;
   text-decoration: none;
-  font-weight: 500;
 }
-.publist a.title:hover,
-.publist a.title:focus {
-  color: #26c6da;
+.publist a:hover,
+.publist a:focus {
   text-decoration: underline;
 }
 </style>
@@ -48,9 +46,9 @@ author_profile: true
     <li>
       {{ authors_fmt }}.
       {% if p.paperurl %}
-        <a class="title" href="{{ p.paperurl }}">{{ p.title }}</a>,
+        <a href="{{ p.paperurl }}">{{ p.title }}</a>,
       {% else %}
-        <span class="title">{{ p.title }}</span>,
+        {{ p.title }},
       {% endif %}
       <span class="journal">{{ p.venue }}</span>
       {% if p.volume %} {{ p.volume }}{% endif %}
@@ -69,9 +67,9 @@ author_profile: true
     <li>
       {{ authors_fmt }}.
       {% if p.paperurl %}
-        <a class="title" href="{{ p.paperurl }}">{{ p.title }}</a>,
+        <a href="{{ p.paperurl }}">{{ p.title }}</a>,
       {% else %}
-        <span class="title">{{ p.title }}</span>,
+        {{ p.title }},
       {% endif %}
       <span class="journal">{{ p.venue }}</span>
       {% if p.volume %} {{ p.volume }}{% endif %}
