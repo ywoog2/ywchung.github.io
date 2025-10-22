@@ -26,7 +26,7 @@ author_profile: false
   line-height: 1.8;
 }
 .contact-info a {
-  color: #1a0dab;
+  color: #00bcd4;
   text-decoration: none;
 }
 .contact-info a:hover {
