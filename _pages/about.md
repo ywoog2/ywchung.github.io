@@ -213,33 +213,33 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 
 html { scroll-behavior: smooth; }
 
-/* ===== 카드 공통 ===== */
+/* ===== 카드 내부 저널명 ===== */
 .card .venue em {
-  color: #00bcd4;
-  font-size: 14px; /* 폰트 조금 키움 */
+  color: #888;
+  font-size: 14px;
   font-style: italic;
   font-weight: 500;
 }
 
-/* 다크 모드에서 제목, 본문, 저널명 모두 잘 보이게 */
+/* 다크모드에서도 카드 배경은 밝게 유지 → 제목은 어둡게 */
 @media (prefers-color-scheme: dark){
   .card {
-    background: #2b2b2b;
-    border: 1px solid #555;
+    background: #ffffff; /* 흰색 유지 */
+    border: 1px solid #444;
   }
   .card .title,
   .card .title a {
-    color: #eaeaea !important;  /* 밝은 회색, 배경 대비 좋음 */
+    color: #111 !important;   /* 어두운 제목 */
   }
   .card .desc {
-    color: #cccccc;
+    color: #333;
   }
   .card .venue em {
-    color: #4dd0e1; /* #00bcd4보다 조금 밝은 청록색 */
+    color: #666; /* 회색 */
   }
 }
 
-/* 카드 링크 밑줄 완전 제거 */
+/* 밑줄 제거 */
 .research-highlights a,
 .research-highlights a:visited,
 .research-highlights a:hover,
