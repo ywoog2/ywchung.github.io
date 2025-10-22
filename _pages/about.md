@@ -213,31 +213,33 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 
 html { scroll-behavior: smooth; }
 
-/* 다크 모드에서 카드 제목/링크 색 고정 */
-@media (prefers-color-scheme: dark){
-  /* 카드 배경/테두리는 그대로 두고… */
-  .card{ background:#2b2b2b; border:1px solid #555; }
+/* ===== 카드 공통 ===== */
+.card .venue em {
+  color: #00bcd4;
+  font-size: 14px; /* 폰트 조금 키움 */
+  font-style: italic;
+  font-weight: 500;
+}
 
-  /* 제목과 제목 링크 색을 밝은 회색으로 강제 */
-  .research-highlights .card .title,
-  .research-highlights .card .title a,
+/* 다크 모드에서 제목, 본문, 저널명 모두 잘 보이게 */
+@media (prefers-color-scheme: dark){
+  .card {
+    background: #2b2b2b;
+    border: 1px solid #555;
+  }
   .card .title,
   .card .title a {
-    color: #e6e6e6 !important;   /* 보기 좋은 밝은 회색 */
+    color: #eaeaea !important;  /* 밝은 회색, 배경 대비 좋음 */
   }
-
-  /* 본문과 저널명 색도 살짝 올라가게 */
-  .card .desc{ color:#d0d0d0; }
-  .card .venue{ color:#b7b7b7; }
+  .card .desc {
+    color: #cccccc;
+  }
+  .card .venue em {
+    color: #4dd0e1; /* #00bcd4보다 조금 밝은 청록색 */
+  }
 }
 
-/* 링크 밑줄 제거 + 색상 상속(다크/라이트 공통) */
-.research-highlights .card .title a{
-  text-decoration: none !important;
-  color: inherit !important;
-}
-
-/* 카드 내부 모든 링크 밑줄 제거 및 색상 상속 */
+/* 카드 링크 밑줄 완전 제거 */
 .research-highlights a,
 .research-highlights a:visited,
 .research-highlights a:hover,
