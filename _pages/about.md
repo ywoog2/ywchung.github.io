@@ -6,8 +6,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <p style="text-align: justify;">
-I am a PhD candidate in Advanced Materials Science & Engineering at Sungkyunkwan University (advisor: Prof. <a href="https://scholar.google.com/citations?user=qCyU-VoAAAAJ&hl=en">Sang-Woo Kim</a>).
+I am a PhD candidate in Advanced Materials Science & Engineering at Sungkyunkwan University (advisor: Prof. 
+<a href="https://scholar.google.com/citations?user=qCyU-VoAAAAJ&hl=en" class="prof-link">Sang-Woo Kim</a>).
 My research focuses on the development of <em>(i)</em> implantable and <em>(ii)</em> wearable ultrasound systems for biomedical applications. 
 <em>(i)</em> I synthesize functional composite materials and fabricate devices for ultrasound-driven triboelectric energy harvesters aimed at powering implantable medical systems. 
 In addition, <em>(ii)</em> I design and develop wearable ultrasound patches optimized for efficient acoustic power transfer. 
@@ -41,7 +43,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 </div>
 
 <!-- Achievements Section -->
-<div style="margin-top: -22px; max-width: 960px; margin-left:auto; margin-right:auto;"> <!-- 중앙 정렬 + 폭 제한 -->
+<div style="margin-top: -22px; max-width: 960px; margin-left:auto; margin-right:auto;"> 
   <h2 style="margin-bottom:10px; text-align:left;">Achievements</h2>
 
   <div class="achievements">
@@ -67,7 +69,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 </div>
 
 <!-- Research Highlights Section -->
-<div style="max-width: 960px; margin: 30px auto 0 auto;"> <!-- Achievements 폭과 동일 -->
+<div style="max-width: 960px; margin: 30px auto 0 auto;">
   <h2 id="highlights" style="margin-top: 10px; font-size: 22px;">Research Highlights</h2>
 
   <div class="research-highlights">
@@ -120,6 +122,17 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 </div>
 
 <style>
+/* === Sang-Woo Kim 링크 색상 (#00bcd4) === */
+.prof-link {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+}
+.prof-link:hover {
+  color: #26c6da;
+  text-decoration: underline;
+}
+
 /* ====== Achievements 표 스타일 ====== */
 .achievements table {
   width: 100%;
@@ -162,22 +175,17 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 /* ===== Research Highlights 2×2 레이아웃 ===== */
 .research-highlights{
   display: grid;
-  grid-template-columns: 1fr;   /* 기본: 모바일 1열 */
+  grid-template-columns: 1fr;
   gap: 20px;
 }
-
-/* 데스크톱(폭 넉넉할 때) 2열로 */
 @media (min-width: 860px){
   .research-highlights{
-    grid-template-columns: repeat(2, 1fr); /* 2 × 2 */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
-/* 카드 폭은 그리드 칸에 맞춰 100% */
 .card-link{ display:block; text-decoration:none; color:inherit; }
 .card{
   width: 100%;
-  max-width: none;              /* 개별 최대폭 제한 제거 */
   background:#fff;
   border:1px solid #eee;
   border-radius:10px;
@@ -192,57 +200,16 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 .card .desc{ font-size:14px; color:#555; text-align:center; margin-top:6px; line-height:1.5; }
 .card .venue{ font-size:12px; color:#888; text-align:right; margin-top:6px; font-style:italic; }
 
-/* 다크 모드 */
 @media (prefers-color-scheme: dark){
   .card{ background:#2b2b2b; border:1px solid #555; }
   .card .title{ color:#fff; }
   .card .desc{ color:#ccc; }
   .card .venue{ color:#aaa; }
 }
-/* ===== 링크 밑줄 제거 ===== */
-a, a:visited, a:hover, a:focus {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
 
-/* 카드 내부 텍스트 밑줄 제거 */
-.card-link,
-.card .title,
-.card .desc,
-.card .venue em,
-.card .venue a {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-  color: inherit;
-}
-/* 학술지명(venue)만 살짝 회색으로 */
-.card .venue em {
-  color: #888;
-}
-/* 학술지명 스타일 (살짝 강조) */
-.card .venue em {
-  color: #666;
-  font-size: 13.5px; /* 기본보다 약간 큼 */
-  font-style: italic;
-  font-weight: 500;
-}
+/* 앵커 위치 보정 */
+#highlights { scroll-margin-top: 96px; }
+@media (max-width: 900px) { #highlights { scroll-margin-top: 72px; } }
 
-/* 헤더 높이에 맞춘 앵커 오프셋 보정 */
-#highlights {
-  /* 데스크톱 */
-  scroll-margin-top: 96px;
-}
-
-/* 좁은 화면(모바일/태블릿)에서 헤더가 더 작으면 오프셋도 줄이기 */
-@media (max-width: 900px) {
-  #highlights {
-    scroll-margin-top: 72px;
-  }
-}
-</style>
-
-<style>
-  html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; }
 </style>
