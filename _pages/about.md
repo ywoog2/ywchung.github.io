@@ -212,4 +212,28 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 @media (max-width: 900px) { #highlights { scroll-margin-top: 72px; } }
 
 html { scroll-behavior: smooth; }
+
+/* 다크 모드에서 카드 제목/링크 색 고정 */
+@media (prefers-color-scheme: dark){
+  /* 카드 배경/테두리는 그대로 두고… */
+  .card{ background:#2b2b2b; border:1px solid #555; }
+
+  /* 제목과 제목 링크 색을 밝은 회색으로 강제 */
+  .research-highlights .card .title,
+  .research-highlights .card .title a,
+  .card .title,
+  .card .title a {
+    color: #e6e6e6 !important;   /* 보기 좋은 밝은 회색 */
+  }
+
+  /* 본문과 저널명 색도 살짝 올라가게 */
+  .card .desc{ color:#d0d0d0; }
+  .card .venue{ color:#b7b7b7; }
+}
+
+/* 링크 밑줄 제거 + 색상 상속(다크/라이트 공통) */
+.research-highlights .card .title a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
 </style>
