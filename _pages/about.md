@@ -159,19 +159,25 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   }
 }
 
-/* ====== Research Highlights 카드 레이아웃 ====== */
-.research-highlights {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/* ===== Research Highlights 2×2 레이아웃 ===== */
+.research-highlights{
+  display: grid;
+  grid-template-columns: 1fr;   /* 기본: 모바일 1열 */
   gap: 20px;
 }
 
-/* 카드 공통 */
-.card-link { display:block; text-decoration:none; color:inherit; }
-.card {
-  flex: 1 1 calc(50% - 20px);
-  max-width: 460px;
+/* 데스크톱(폭 넉넉할 때) 2열로 */
+@media (min-width: 860px){
+  .research-highlights{
+    grid-template-columns: repeat(2, 1fr); /* 2 × 2 */
+  }
+}
+
+/* 카드 폭은 그리드 칸에 맞춰 100% */
+.card-link{ display:block; text-decoration:none; color:inherit; }
+.card{
+  width: 100%;
+  max-width: none;              /* 개별 최대폭 제한 제거 */
   background:#fff;
   border:1px solid #eee;
   border-radius:10px;
@@ -179,21 +185,18 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   overflow:hidden;
   transition: all 0.25s ease;
 }
-.card:hover {
-  box-shadow:0 6px 16px rgba(0,0,0,0.12);
-  transform: translateY(-3px);
-}
-.card img { width:95%; display:block; margin:10px auto; border-radius:6px; }
-.card .body { padding:10px 14px 14px; }
-.card .title { font-weight:700; text-align:center; margin-top:4px; }
-.card .desc  { font-size:14px; color:#555; text-align:center; margin-top:6px; line-height:1.5; }
-.card .venue { font-size:12px; color:#888; text-align:right; margin-top:6px; font-style:italic; }
+.card:hover{ box-shadow:0 6px 16px rgba(0,0,0,0.12); transform: translateY(-3px); }
+.card img{ width:95%; display:block; margin:10px auto; border-radius:6px; }
+.card .body{ padding:10px 14px 14px; }
+.card .title{ font-weight:700; text-align:center; margin-top:4px; }
+.card .desc{ font-size:14px; color:#555; text-align:center; margin-top:6px; line-height:1.5; }
+.card .venue{ font-size:12px; color:#888; text-align:right; margin-top:6px; font-style:italic; }
 
-/* 다크 모드 카드 스타일 */
-@media (prefers-color-scheme: dark) {
-  .card { background:#2b2b2b; border:1px solid #555; }
-  .card .title { color:#fff; }
-  .card .desc { color:#ccc; }
-  .card .venue { color:#aaa; }
+/* 다크 모드 */
+@media (prefers-color-scheme: dark){
+  .card{ background:#2b2b2b; border:1px solid #555; }
+  .card .title{ color:#fff; }
+  .card .desc{ color:#ccc; }
+  .card .venue{ color:#aaa; }
 }
 </style>
