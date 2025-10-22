@@ -199,4 +199,26 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   .card .desc{ color:#ccc; }
   .card .venue{ color:#aaa; }
 }
+/* ===== 링크 밑줄 제거 ===== */
+a, a:visited, a:hover, a:focus {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* 카드 내부 텍스트 밑줄 제거 */
+.card-link,
+.card .title,
+.card .desc,
+.card .venue em,
+.card .venue a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  color: inherit;
+}
+/* 학술지명(venue)만 살짝 회색으로 */
+.card .venue em {
+  color: #888;
+}
 </style>
