@@ -73,6 +73,8 @@
         <li><a href="{{ site.author.cv | relative_url }}" target="_blank" rel="noopener">
           <i class="fas fa-file-pdf"></i> CV</a></li>
       {% endif %}
+
+
       
       <!-- Font Awesome icons / Repositories and software development -->
       {% if author.bitbucket %}
@@ -171,5 +173,18 @@
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
     </ul>
+    <style>
+.author__urls i {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.author__urls li {
+  margin-bottom: 4px;
+}
+.author__urls .fa-file-pdf {
+  position: relative;
+  top: -1px;
+}
+</style>
   </div>
 </div>
