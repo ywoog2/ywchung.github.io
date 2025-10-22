@@ -236,4 +236,15 @@ html { scroll-behavior: smooth; }
   text-decoration: none !important;
   color: inherit !important;
 }
+
+/* 카드 내부 모든 링크 밑줄 제거 및 색상 상속 */
+.research-highlights a,
+.research-highlights a:visited,
+.research-highlights a:hover,
+.research-highlights a:focus {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  color: inherit !important;
+}
 </style>
