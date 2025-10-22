@@ -228,6 +228,19 @@ a, a:visited, a:hover, a:focus {
   font-style: italic;
   font-weight: 500;
 }
+
+/* 헤더 높이에 맞춘 앵커 오프셋 보정 */
+#highlights {
+  /* 데스크톱 */
+  scroll-margin-top: 96px;
+}
+
+/* 좁은 화면(모바일/태블릿)에서 헤더가 더 작으면 오프셋도 줄이기 */
+@media (max-width: 900px) {
+  #highlights {
+    scroll-margin-top: 72px;
+  }
+}
 </style>
 
 <style>
