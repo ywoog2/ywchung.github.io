@@ -46,17 +46,45 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   border-collapse: collapse;
   font-size: 16px;
 }
+
+/* 표 헤더 스타일 */
 .achievements thead th {
   background: #f5f5f5;
+  color: #333;
   padding: 14px 10px;
   text-align: center !important;
   vertical-align: middle !important;
 }
+
+/* 표 내용 스타일 */
 .achievements tbody td {
+  background: #fafafa;
+  color: #222;
   padding: 12px 10px;
   text-align: center !important;
   vertical-align: middle !important;
-  border: 1px solid #eee;
+  border: 1px solid #ddd;
+}
+
+/* 작은 글씨 (예: Total IF) */
+.achievements tbody td small {
+  color: #666;
+}
+
+/* 다크 모드 대응 */
+@media (prefers-color-scheme: dark) {
+  .achievements thead th {
+    background: #444;
+    color: #fff;
+  }
+  .achievements tbody td {
+    background: #2b2b2b;
+    color: #f5f5f5;
+    border: 1px solid #555;
+  }
+  .achievements tbody td small {
+    color: #ccc;
+  }
 }
 </style>
 
