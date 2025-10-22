@@ -40,56 +40,8 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   </div>
 </div>
 
-<style>
-.achievements table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 16px;
-}
-
-/* 표 헤더 스타일 */
-.achievements thead th {
-  background: #f5f5f5;
-  color: #333;
-  padding: 14px 10px;
-  text-align: center !important;
-  vertical-align: middle !important;
-}
-
-/* 표 내용 스타일 */
-.achievements tbody td {
-  background: #fafafa;
-  color: #222;
-  padding: 12px 10px;
-  text-align: center !important;
-  vertical-align: middle !important;
-  border: 1px solid #ddd;
-}
-
-/* 작은 글씨 (예: Total IF) */
-.achievements tbody td small {
-  color: #666;
-}
-
-/* 다크 모드 대응 */
-@media (prefers-color-scheme: dark) {
-  .achievements thead th {
-    background: #444;
-    color: #fff;
-  }
-  .achievements tbody td {
-    background: #2b2b2b;
-    color: #f5f5f5;
-    border: 1px solid #555;
-  }
-  .achievements tbody td small {
-    color: #ccc;
-  }
-}
-</style>
-
 <!-- Achievements Section -->
-<div style="margin-top: -22px;"> <!-- Education과의 간격 줄임 -->
+<div style="margin-top: -22px; max-width: 960px; margin-left:auto; margin-right:auto;"> <!-- 중앙 정렬 + 폭 제한 -->
   <h2 style="margin-bottom:10px; text-align:left;">Achievements</h2>
 
   <div class="achievements">
@@ -114,59 +66,48 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   </div>
 </div>
 
-<style>
-  /* 링크 스타일이 카드에 묻히도록 */
-  .card-link { display:block; text-decoration:none; color:inherit; }
-  .card { flex:1 1 320px; max-width:360px; background:#fff; border:1px solid #eee; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden; }
-  .card img { width:95%; height: auto; object-fit: contain; display:block; margin: 8px auto; border-radius: 6px;}
-  .card .body { padding:10px 14px 14px; }
-  .card .title { font-weight:700; text-align:center; margin-top:4px; }
-  .card .desc  { font-size:14px; color:#555; text-align:center; margin-top:6px; }
-  .card .venue { font-size:12px; color:#888; text-align:right; margin-top:6px; font-style:italic; }
-  .card:hover { box-shadow:0 6px 16px rgba(0,0,0,0.12); }
-</style>
+<!-- Research Highlights Section -->
+<div style="max-width: 960px; margin: 30px auto 0 auto;"> <!-- Achievements 폭과 동일 -->
+  <h2 id="highlights" style="margin-top: 10px; font-size: 22px;">Research Highlights</h2>
 
-<h2 id="highlights" style="margin-top: 18px; font-size: 22px;">Research Highlights</h2>
-
-<div style="display:flex; gap:18px; flex-wrap:wrap; align-items:stretch;">
-
-  <!-- 카드 1 -->
-  <a class="card-link" href="{{ site.baseurl }}/files/harvesting.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound-driven energy harvesting">
-    <div class="card">
-      <img src="https://ywoog2.github.io/images/1.png" alt="Ultrasound-driven energy harvesting">
-      <div class="body">
-        <div class="title">Ultrasound-driven energy harvesting</div>
-        <div class="desc">Maximizing triboelectric energy harvesting efficiency for next-generation implantable medical devices</div>
-        <div class="venue"><em>Joule (2024)</em></div>
+  <div class="research-highlights">
+    <!-- 카드 1 -->
+    <a class="card-link" href="{{ site.baseurl }}/files/harvesting.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound-driven energy harvesting">
+      <div class="card">
+        <img src="https://ywoog2.github.io/images/1.png" alt="Ultrasound-driven energy harvesting">
+        <div class="body">
+          <div class="title">Ultrasound-driven energy harvesting</div>
+          <div class="desc">Maximizing triboelectric energy harvesting efficiency for next-generation implantable medical devices</div>
+          <div class="venue"><em>Joule (2024)</em></div>
+        </div>
       </div>
-    </div>
-  </a>
+    </a>
 
-   <!-- 카드 2 -->
-  <a class="card-link" href="{{ site.baseurl }}/files/neurostimulator.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Battery-free neurostimulators">
-    <div class="card">
-      <img src="https://ywoog2.github.io/images/2.png" alt="Battery-free neurostimulators">
-      <div class="body">
-        <div class="title">Battery-free neurostimulators</div>
-        <div class="desc">Development of an ultrasound-driven battery-free neurostimulator for intractable disease therapy</div>
-        <div class="venue"><em>Adv. Mater. (2024)</em></div>
+    <!-- 카드 2 -->
+    <a class="card-link" href="{{ site.baseurl }}/files/neurostimulator.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Battery-free neurostimulators">
+      <div class="card">
+        <img src="https://ywoog2.github.io/images/2.png" alt="Battery-free neurostimulators">
+        <div class="body">
+          <div class="title">Battery-free neurostimulators</div>
+          <div class="desc">Development of an ultrasound-driven battery-free neurostimulator for intractable disease therapy</div>
+          <div class="venue"><em>Adv. Mater. (2024)</em></div>
+        </div>
       </div>
-    </div>
-  </a>
+    </a>
 
-  <!-- 카드 3 -->
-  <a class="card-link" href="{{ site.baseurl }}/files/datacomm.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound data communication">
-    <div class="card">
-      <img src="https://ywoog2.github.io/images/3.png" alt="Ultrasound data communication"> 
-      <div class="body">
-        <div class="title">Ultrasound data communication</div>
-        <div class="desc">Development of ultrasound data communication technology for miniaturized battery-free implants</div>
-        <div class="venue"><em>Adv. Energy Mater. (2025)</em></div>
+    <!-- 카드 3 -->
+    <a class="card-link" href="{{ site.baseurl }}/files/datacomm.pdf" target="_blank" rel="noopener" aria-label="Open PDF: Ultrasound data communication">
+      <div class="card">
+        <img src="https://ywoog2.github.io/images/3.png" alt="Ultrasound data communication"> 
+        <div class="body">
+          <div class="title">Ultrasound data communication</div>
+          <div class="desc">Development of ultrasound data communication technology for miniaturized battery-free implants</div>
+          <div class="venue"><em>Adv. Energy Mater. (2025)</em></div>
+        </div>
       </div>
-    </div>
-  </a>
+    </a>
 
-  <!-- 카드 4 -->
+    <!-- 카드 4 -->
     <div class="card">
       <img src="https://ywoog2.github.io/images/4.png" alt="Ultrasound-responsive materials">
       <div class="body">
@@ -175,5 +116,84 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
         <div class="venue"><em>Adv. Energy Mater. (under review)</em></div>
       </div>
     </div>
-
+  </div>
 </div>
+
+<style>
+/* ====== Achievements 표 스타일 ====== */
+.achievements table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+.achievements thead th {
+  background: #f5f5f5;
+  color: #333;
+  padding: 14px 10px;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+.achievements tbody td {
+  background: #fafafa;
+  color: #222;
+  padding: 12px 10px;
+  text-align: center !important;
+  vertical-align: middle !important;
+  border: 1px solid #ddd;
+}
+.achievements tbody td small { color: #666; }
+
+/* 다크 모드 */
+@media (prefers-color-scheme: dark) {
+  .achievements thead th {
+    background: #444;
+    color: #fff;
+  }
+  .achievements tbody td {
+    background: #2b2b2b;
+    color: #f5f5f5;
+    border: 1px solid #555;
+  }
+  .achievements tbody td small {
+    color: #ccc;
+  }
+}
+
+/* ====== Research Highlights 카드 레이아웃 ====== */
+.research-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* 카드 공통 */
+.card-link { display:block; text-decoration:none; color:inherit; }
+.card {
+  flex: 1 1 calc(50% - 20px);
+  max-width: 460px;
+  background:#fff;
+  border:1px solid #eee;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+  overflow:hidden;
+  transition: all 0.25s ease;
+}
+.card:hover {
+  box-shadow:0 6px 16px rgba(0,0,0,0.12);
+  transform: translateY(-3px);
+}
+.card img { width:95%; display:block; margin:10px auto; border-radius:6px; }
+.card .body { padding:10px 14px 14px; }
+.card .title { font-weight:700; text-align:center; margin-top:4px; }
+.card .desc  { font-size:14px; color:#555; text-align:center; margin-top:6px; line-height:1.5; }
+.card .venue { font-size:12px; color:#888; text-align:right; margin-top:6px; font-style:italic; }
+
+/* 다크 모드 카드 스타일 */
+@media (prefers-color-scheme: dark) {
+  .card { background:#2b2b2b; border:1px solid #555; }
+  .card .title { color:#fff; }
+  .card .desc { color:#ccc; }
+  .card .venue { color:#aaa; }
+}
+</style>
