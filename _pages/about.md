@@ -173,73 +173,112 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
 }
 
 /* ===== Research Highlights 2×2 레이아웃 ===== */
-.research-highlights{
+.research-highlights {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
-@media (min-width: 860px){
-  .research-highlights{
+@media (min-width: 860px) {
+  .research-highlights {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-.card-link{ display:block; text-decoration:none; color:inherit; }
-.card{
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
   width: 100%;
-  background:#fff;
-  border:1px solid #eee;
-  border-radius:10px;
-  box-shadow:0 2px 8px rgba(0,0,0,0.08);
-  overflow:hidden;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
   transition: all 0.25s ease;
 }
-.card:hover{ box-shadow:0 6px 16px rgba(0,0,0,0.12); transform: translateY(-3px); }
-.card img{ width:95%; display:block; margin:10px auto; border-radius:6px; }
-.card .body{ padding:10px 14px 14px; }
-.card .title{ font-weight:700; text-align:center; margin-top:4px; }
-.card .desc{ font-size:14px; color:#555; text-align:center; margin-top:6px; line-height:1.5; }
-.card .venue{ font-size:12px; color:#888; text-align:right; margin-top:6px; font-style:italic; }
 
-@media (prefers-color-scheme: dark){
-  .card{ background:#2b2b2b; border:1px solid #555; }
-  .card .title{ color:#fff; }
-  .card .desc{ color:#ccc; }
-  .card .venue{ color:#aaa; }
+.card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
 }
 
-/* 앵커 위치 보정 */
-#highlights { scroll-margin-top: 96px; }
-@media (max-width: 900px) { #highlights { scroll-margin-top: 72px; } }
+.card img {
+  width: 95%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 6px;
+}
 
-html { scroll-behavior: smooth; }
+.card .body {
+  padding: 10px 14px 14px;
+}
 
-/* ===== 카드 내부 저널명 ===== */
-.card .venue em {
-  color: #888;
+.card .title {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 4px;
+  color: #111;
+}
+
+.card .desc {
   font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+.card .venue {
+  font-size: 14px;
+  color: #888;
+  text-align: right;
+  margin-top: 6px;
   font-style: italic;
   font-weight: 500;
 }
 
-/* 다크모드에서도 카드 배경은 밝게 유지 → 제목은 어둡게 */
-@media (prefers-color-scheme: dark){
+/* 다크모드에서도 카드 배경은 흰색 유지 + 제목 검정으로 고정 */
+@media (prefers-color-scheme: dark) {
   .card {
-    background: #ffffff; /* 흰색 유지 */
+    background: #ffffff !important;
     border: 1px solid #444;
+    color-scheme: light;
   }
+
   .card .title,
   .card .title a {
-    color: #111 !important;   /* 어두운 제목 */
+    color: #111 !important;
   }
+
   .card .desc {
-    color: #333;
+    color: #333 !important;
   }
+
+  .card .venue,
   .card .venue em {
-    color: #666; /* 회색 */
+    color: #666 !important;
   }
 }
 
-/* 밑줄 제거 */
+/* 앵커 위치 보정 */
+#highlights {
+  scroll-margin-top: 96px;
+}
+@media (max-width: 900px) {
+  #highlights {
+    scroll-margin-top: 72px;
+  }
+}
+
+/* 부드러운 스크롤 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 밑줄 제거 (전체 링크 공통) */
 .research-highlights a,
 .research-highlights a:visited,
 .research-highlights a:hover,
