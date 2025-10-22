@@ -39,7 +39,7 @@ author_profile: false
     <a href="https://www.google.com/maps/place/%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90+%EC%9E%90%EC%97%B0%EA%B3%BC%ED%95%99%EC%BA%A0%ED%8D%BC%EC%8A%A4/@37.2937619,126.9752556,17z"
        target="_blank" rel="noopener">
       <iframe
-        src="https://www.google.com/maps?q=%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9E%90%EC%97%B0%EA%B3%BC%ED%95%99%EC%BA%A0%ED%8D%BC%EC%8A%A4&hl=ko&z=16&output=embed"
+        src="https://www.google.com/maps?q=%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9E%90%EC%97%B0%EA%B3%BC%ED%95%99%EC%BA%A0%ED%8D%BC%EC%8A%A4&hl=en&z=16&output=embed"
         allowfullscreen="" loading="lazy">
       </iframe>
     </a>
