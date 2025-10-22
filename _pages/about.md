@@ -221,4 +221,11 @@ a, a:visited, a:hover, a:focus {
 .card .venue em {
   color: #888;
 }
+/* 학술지명 스타일 (살짝 강조) */
+.card .venue em {
+  color: #666;
+  font-size: 13.5px; /* 기본보다 약간 큼 */
+  font-style: italic;
+  font-weight: 500;
+}
 </style>
