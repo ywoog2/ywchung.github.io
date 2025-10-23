@@ -271,12 +271,7 @@ I have extensive experience in multiphysics simulations and preclinical evaluati
   #highlights {
     scroll-margin-top: 72px;
   }
-}
 
-/* 부드러운 스크롤 */
-html {
-  scroll-behavior: smooth;
-}
 
 /* 밑줄 제거 (전체 링크 공통) */
 .research-highlights a,
