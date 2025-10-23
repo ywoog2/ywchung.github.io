@@ -289,3 +289,12 @@ html {
   color: inherit !important;
 }
 </style>
+
+<style id="rh-hotfix">
+.page__content .research-highlights .card{background:#fff !important;border:1px solid #444}
+.page__content .research-highlights .card .title,
+.page__content .research-highlights .card .title a{color:#111 !important}
+.page__content .research-highlights a{text-decoration:none !important;border-bottom:none !important}
+.page__content .research-highlights .card .venue,
+.page__content .research-highlights .card .venue em{color:#666 !important;font-size:14px !important}
+</style>
