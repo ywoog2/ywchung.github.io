@@ -3,31 +3,59 @@
 @media (min-width:860px){.research-highlights{grid-template-columns:repeat(2,1fr)}}
 
 .card-link{display:block;text-decoration:none;color:inherit}
-.card{width:100%;background:#fff;border:1px solid #eee;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.08);overflow:hidden;transition:all .25s ease}
+.card{
+  width:100%;
+  background:#fff !important;
+  border:1px solid #eee;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+  overflow:hidden;
+  transition:all .25s ease
+}
 .card:hover{box-shadow:0 6px 16px rgba(0,0,0,.12);transform:translateY(-3px)}
 .card img{width:95%;display:block;margin:10px auto;border-radius:6px}
 .card .body{padding:10px 14px 14px}
-.card .title{font-weight:700;text-align:center;margin-top:4px;color:#111}
+.card .title{font-weight:700;text-align:center;margin-top:4px;color:#111 !important}
+.card .title a{color:#111 !important}
 .card .desc{font-size:14px;color:#555;text-align:center;margin-top:6px;line-height:1.5}
-.card .venue{font-size:14px;color:#888;text-align:right;margin-top:6px;font-style:italic;font-weight:500}
 
-/* 다크모드에서도 카드 흰색 + 제목 검정 고정 */
+/* 저널명: 회색 + 살짝 크게 */
+.card .venue,
+.card .venue em{
+  color:#666 !important;
+  font-size:14px !important;
+  font-style:italic;
+  font-weight:500
+}
+
+/* 다크모드에서도 카드 밝고 텍스트 어둡게 강제 */
 @media (prefers-color-scheme: dark){
-  .card{background:#fff !important;border:1px solid #444;color-scheme:light}
+  .card{background:#fff !important;border:1px solid #444}
   .card .title,.card .title a{color:#111 !important}
   .card .desc{color:#333 !important}
   .card .venue,.card .venue em{color:#666 !important}
 }
 
-/* 밑줄 제거(카드 내부 전부) */
+/* 밑줄 완전 제거 (카드 내부 링크 전부) */
 .research-highlights a,
 .research-highlights a:visited,
 .research-highlights a:hover,
 .research-highlights a:focus{
-  text-decoration:none !important;border-bottom:none !important;box-shadow:none !important;color:inherit !important
+  text-decoration:none !important;
+  border-bottom:none !important;
+  box-shadow:none !important;
+  color:inherit !important
 }
 
-/* 앵커 오프셋 */
+/* 앵커 오프셋 + 부드러운 스크롤 */
 #highlights{scroll-margin-top:96px}
 @media (max-width:900px){#highlights{scroll-margin-top:72px}}
 html{scroll-behavior:smooth}
+
+/* --- 디버그 표시: 이 줄이 보이면 overrides.css가 확실히 로드된 것 --- */
+html::after{
+  content:"overrides.css ✓";
+  position:fixed;right:.5rem;bottom:.5rem;
+  background:#111;color:#fff;font:12px/1.6 system-ui;padding:.2rem .4rem;border-radius:.3rem;
+  z-index:99999;opacity:.25;pointer-events:none
+}
