@@ -2,25 +2,27 @@
 
 <!-- start custom head snippets -->
 
-<!-- Support for Academicons -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+<!-- Academicons -->
+<link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
 
-<!-- favicons / PWA manifest -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
+<!-- Favicons / manifest (모두 상대경로) -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}"/>
+<link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}"/>
+<link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.png' | relative_url }}" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{ '/images/favicon-192x192.png' | relative_url }}" sizes="192x192"/>
 <link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}"/>
 <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}"/>
 <meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
 
-<!-- 👇 반드시 맨 마지막에 로드: 캐시버스터 포함 -->
-<link rel="stylesheet" href="{{ '/assets/css/overrides.css?v=20251023a' | relative_url }}"/>
+<!-- ✅ Minimal Mistakes 메인 CSS (Sass로 빌드된 결과) -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"/>
 
-<!-- 🔧 main.js는 일반 스크립트로 (type="module" 절대 금지) -->
-<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+<!-- ✅ 사용자 오버라이드 CSS (항상 마지막, 캐시버스터 부여) -->
+<link rel="stylesheet" href="{{ '/assets/css/overrides.css?v=20251023b' | relative_url }}"/>
+
+<!-- ✅ 테마 스크립트: ES Module 로드 -->
+<script type="module" src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
 {% include analytics.html %}
-
